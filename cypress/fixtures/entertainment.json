@@ -1,0 +1,45 @@
+{
+    "movies": [
+      {
+        "title": "The Social Dilemma",
+        "director": "Jeff Orlowski"
+      },
+      {
+        "title": "Catch Me If You Can",
+        "director": "Francis Ford Coppola"
+      },
+      {
+        "title": "Joker",
+        "director": "Todd Phillips"
+      }
+    ],
+    "tvShows": [
+      {
+        "title": "Breaking Bad",
+        "director": "Vince Gilligan"
+      },
+      {
+        "title": "Game of Thrones",
+        "director": "David Benioff and D. B. Weiss"
+      },
+      {
+        "title": "Stranger Things",
+        "director": "The Duffer Brothers"
+      }
+    ],
+    "directors": [
+      {
+        "name": "Quentin Tarantino",
+        "movies": ["Pulp Fiction", "Kill Bill", "Inglourious Basterds"]
+      },
+      {
+        "name": "Martin Scorsese",
+        "movies": ["Goodfellas", "The Departed", "The Irishman"]
+      },
+      {
+        "name": "Steven Spielberg",
+        "movies": ["Jurassic Park", "Jaws", "E.T. the Extra-Terrestrial"]
+      }
+    ]
+  }
+  
