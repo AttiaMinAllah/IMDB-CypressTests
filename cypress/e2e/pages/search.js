@@ -20,6 +20,10 @@ class SearchPage {
   categoryFilter = () => {
     return cy.get(selectors.categoryFilter);
   };
+
+  moreResults = () =>{
+    return cy.get(selectors.moreResults)
+  }
 }
 
 export default SearchPage;

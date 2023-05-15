@@ -1,12 +1,12 @@
 {
     "movies": [
       {
-        "title": "The Social Dilemma",
-        "director": "Jeff Orlowski"
+        "title": "The Aviator",
+        "director": "Martin Scorsese"
       },
       {
         "title": "Catch Me If You Can",
-        "director": "Francis Ford Coppola"
+        "director": "Steven Spielberg"
       },
       {
         "title": "Joker",
@@ -15,8 +15,8 @@
     ],
     "tvShows": [
       {
-        "title": "Breaking Bad",
-        "director": "Vince Gilligan"
+        "title": "The Social Dilemma",
+        "director": "Jeff Orlowski"
       },
       {
         "title": "Game of Thrones",
@@ -35,10 +35,6 @@
       {
         "name": "Martin Scorsese",
         "movies": ["Goodfellas", "The Departed", "The Irishman"]
-      },
-      {
-        "name": "Steven Spielberg",
-        "movies": ["Jurassic Park", "Jaws", "E.T. the Extra-Terrestrial"]
       }
     ]
   }

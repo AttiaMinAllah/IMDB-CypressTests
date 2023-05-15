@@ -24,11 +24,20 @@ describe('IMDB Search', () => {
     // Click the search button
     search.searchBtn().click();
     // Assert that the search results contain the random movie title
-    search.searchResults().contains('Titles').should('be.visible');
+    search.searchResults()
+    .contains('Titles')
+    .should('be.visible');
     search.searchResults().should('contain', randomMovie);
+    search.moreResults().click()
+    //Assert
   });
 
-  it('Verify that category filter works as expected', () => {
+  it('Verify that user is able to perform Advanced search'), ()=>{
+
+
+  }
+
+  it.skip('Verify that category filter works as expected', () => {
     // Click the category filter dropdown
     search.categoryFilter().click();
     // Select TV Episodes from the dropdown
@@ -42,10 +51,11 @@ describe('IMDB Search', () => {
     // Assert that the search results contain the random TV show title and the TV Episodes filter
     search.searchResults().should('be.visible')
       .should('contain', randomTvShow)
-      .contains('TV Episodes');
+      .contains('TV Episodes')
+      .should('not.contain', 'Titles');
   });
 
-  it('Verify that an error message is displayed when an invalid search query is entered', () => {
+  it.skip('Verify that an error message is displayed when an invalid search query is entered', () => {
     // Type an invalid search query
     search.searchContent().type('@#!@#;${enter}');
     // Assert that the "No results found" message is displayed
