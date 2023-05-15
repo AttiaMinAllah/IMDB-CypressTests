@@ -55,7 +55,7 @@ describe('IMDB Search', () => {
     .should('contain.text', 'No results found');
   });
 
-  it('Verify that related results are shown when user makes a typo',()=>{
+  it('Verify that related results are shown when user makes a typographical mistake',()=>{
     // Enter a movie name with a type
     searchBar.searchContent().type('Emception{enter}')
     // Assert that a related movie name is displayed 
@@ -71,5 +71,5 @@ describe('IMDB Search', () => {
     // Assert that user is able to redirect to Advanced Search page via search category filter
     cy.get(selectors.advancedSearchPageHeader).contains('Advanced Search')
   })
-  
+
 });
