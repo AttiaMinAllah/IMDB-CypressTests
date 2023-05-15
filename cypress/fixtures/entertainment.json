@@ -1,0 +1,42 @@
+{
+    "movies": [
+      {
+        "title": "The Aviator",
+        "director": "Martin Scorsese"
+      },
+      {
+        "title": "Catch Me If You Can",
+        "director": "Steven Spielberg"
+      },
+      {
+        "title": "Joker",
+        "director": "Todd Phillips"
+      }
+    ],
+    "tvShows": [
+      {
+        "title": "The Social Dilemma",
+        "director": "Jeff Orlowski"
+      },
+      {
+        "title": "Game of Thrones",
+        "director": "David Benioff and D. B. Weiss"
+      },
+      {
+        "title": "Stranger Things",
+        "director": "The Duffer Brothers"
+      }
+    ],
+    
+    "directors": [
+      {
+        "name": "Quentin Tarantino",
+        "movies": ["Pulp Fiction", "Kill Bill", "Inglourious Basterds"]
+      },
+      {
+        "name": "Martin Scorsese",
+        "movies": ["Goodfellas", "The Departed", "The Irishman"]
+      }
+    ]
+  }
+  
