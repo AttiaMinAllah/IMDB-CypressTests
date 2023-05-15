@@ -1,6 +1,10 @@
+// Import the 'selectors' object from a separate file
 import { selectors } from "../../common/selectors";
 
-class SearchPage {
+// Define a SearchBar class
+class SearchBar {
+  // Define methods for interacting with various elements on the search bar
+  // and return Cypress chainable objects
   searchContent = () => {
     return cy.get(selectors.searchField);
   };
@@ -26,4 +30,5 @@ class SearchPage {
   }
 }
 
-export default SearchPage;
+// Export the SearchBar class as the default export of this module
+export default SearchBar;
