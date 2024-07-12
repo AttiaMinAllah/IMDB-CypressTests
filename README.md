@@ -4,7 +4,7 @@
 Installation & Execution:
 1. Clone the repository to your local machine:
 
-    Command: git clone git@github.com:AttiaMinAllah/TalonOneTask.git
+    Command: git clone git@github.com:AttiaMinAllah/IMDB-CypressTests.git
 
 2. Navigate to the project directory
 
